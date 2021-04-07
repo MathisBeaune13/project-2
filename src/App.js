@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 
-// ----- Component ------- //
-import FormJulia from '/Users/juliabargoin/Desktop/workspace/Stage/project-2/src/Form_julia/Form.js';
-
 
 class App extends React.Component {
   constructor(){
@@ -33,8 +30,6 @@ class App extends React.Component {
           <input type="submit" value="Envoyer" onClick={() => this.state.userAlert } />
         </form>
       </header>
-
-      <FormJulia />
     </div>
     );
   }
