@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+// ----- Component ------- //
+import FormJulia from '/Users/juliabargoin/Desktop/workspace/Stage/project-2/src/Form_julia/Form.js';
+
 
 class App extends React.Component {
   constructor(){
@@ -16,6 +19,8 @@ class App extends React.Component {
       <header className="App-header">
         <p>Welcome { this.state.firstName  } </p>
       </header>
+
+      <FormJulia />
     </div>
     );
   }
